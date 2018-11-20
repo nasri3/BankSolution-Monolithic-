@@ -27,15 +27,60 @@ public class Client {
     int age ;
     String job ;
     double averageOfGainPerMonth ;
+    String email ;
+    long cin ;
+    long phoneNumber ;
 
-    public Client(Long id, String name, LocalDateTime dateOfBirth, int age, String job, double averageOfGainPerMonth) {
+    public void setPhoneNumber(long phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+    public long getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public Client(Long id, String name, LocalDateTime dateOfBirth, int age, String job, double averageOfGainPerMonth, String email, long cin, long phoneNumber) {
         this.id = id;
-        this.name = name;
+      
         this.dateOfBirth = dateOfBirth;
         this.age = age;
         this.job = job;
         this.averageOfGainPerMonth = averageOfGainPerMonth;
+        this.email = email;
+        this.cin = cin;
+        this.phoneNumber = phoneNumber;
     }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setCin(long cin) {
+        this.cin = cin;
+    }
+
+    public Client(Long id, String FirstName, String LastName, LocalDateTime dateOfBirth, int age, String job, double averageOfGainPerMonth, String email, long cin, long phoneNumber) {
+        this.id = id;
+        this.FirstName = FirstName;
+        this.LastName = LastName;
+        this.dateOfBirth = dateOfBirth;
+        this.age = age;
+        this.job = job;
+        this.averageOfGainPerMonth = averageOfGainPerMonth;
+        this.email = email;
+        this.cin = cin;
+        this.phoneNumber = phoneNumber;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public long getCin() {
+        return cin;
+    }
+    
+
 
     public Client() {
         // Ceci est un code :* 
