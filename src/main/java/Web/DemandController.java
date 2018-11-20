@@ -34,8 +34,8 @@ public class DemandController {
    
     
     @GetMapping
-    List<Demand> GetDemands(){
-        return demandService.findAll();
+   String GetDemands(){
+        return "hhhhh";
         
     }
     

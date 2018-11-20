@@ -5,25 +5,19 @@
  */
 package services;
 
-<<<<<<< HEAD
 import entities.Demand;
 import java.util.List;
 import java.util.Optional;
 import static jdk.nashorn.internal.objects.NativeMath.log;
 import org.springframework.stereotype.Service;
 import repositories.DemandRepository;
-=======
 import org.springframework.stereotype.Service;
->>>>>>> 39b6b61a1e7b35144046a754acc12f9c9e732e5d
 
 /**
  *
  * @author omar
  */
-<<<<<<< HEAD
-=======
 
->>>>>>> 39b6b61a1e7b35144046a754acc12f9c9e732e5d
 @Service
 public class DemandService {
     private final DemandRepository demandRepository;
