@@ -3,21 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.BankSolution.repositories;
-import com.BankSolution.entities.Client;
-import java.util.List;
-import java.util.Optional;
+package com.example.BankSolution.repositories;
+
+import com.example.BankSolution.entities.Response;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 /**
  *
- * @author omar
+ * @author nasri
  */
 @Repository
-public interface ClientRepository extends JpaRepository<Client, Long>{
-    List<Client> findAll();
+public interface ResponseRepository  extends JpaRepository<Response, Long>{
     
-
-} 
-    
+}

@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.BankSolution.repositories;
+package com.example.BankSolution.repositories;
 
-import com.BankSolution.entities.Response;
+import com.example.BankSolution.entities.Account;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
@@ -13,7 +13,9 @@ import org.springframework.stereotype.Repository;
  *
  * @author nasri
  */
-@Repository
-public interface ResponseRepository  extends JpaRepository<Response, Long>{
+
+ @Repository 
+public interface AccountRepository extends JpaRepository<Account, Long> {
     
 }
+

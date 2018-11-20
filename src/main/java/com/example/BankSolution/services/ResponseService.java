@@ -3,18 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.BankSolution.services;
+package com.example.BankSolution.services;
 
-import com.BankSolution.entities.Client;
-import com.BankSolution.entities.Demand;
-import com.BankSolution.entities.Loan;
-import com.BankSolution.entities.Response;
-import com.BankSolution.repositories.ResponseRepository;
+import com.example.BankSolution.entities.Client;
+import com.example.BankSolution.entities.Demand;
+import com.example.BankSolution.entities.Loan;
+import com.example.BankSolution.entities.Response;
+import com.example.BankSolution.repositories.ResponseRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 /**
  *
  * @author nasri
  */
+@Service
 public class ResponseService {
     private  final ResponseRepository responseRepository;
 

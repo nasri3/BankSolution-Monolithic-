@@ -3,16 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.BankSolution.repositories;
-
+package com.example.BankSolution.repositories;
+import com.example.BankSolution.entities.Client;
+import java.util.List;
+import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
-import com.BankSolution.entities.ThingToBuy;
 import org.springframework.stereotype.Repository;
+
 /**
  *
  * @author omar
  */
 @Repository
-public interface ThingToBuyRepository extends JpaRepository<ThingToBuy, Object> {
+public interface ClientRepository extends JpaRepository<Client, Long>{
+    List<Client> findAll();
     
-}
+
+} 
+    

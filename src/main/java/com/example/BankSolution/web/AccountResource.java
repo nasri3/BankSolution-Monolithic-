@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.BankSolution.web;
+package com.example.BankSolution.web;
 
-import com.BankSolution.entities.Account;
-import com.BankSolution.repositories.AccountRepository;
+import com.example.BankSolution.entities.Account;
+import com.example.BankSolution.repositories.AccountRepository;
 import java.util.List;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

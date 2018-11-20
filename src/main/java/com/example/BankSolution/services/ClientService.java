@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.BankSolution.services;
+package com.example.BankSolution.services;
 
-import com.BankSolution.entities.Client;
+import com.example.BankSolution.entities.Client;
 import java.util.List;
 import org.springframework.stereotype.Service;
-import com.BankSolution.repositories.ClientRepository;
+import com.example.BankSolution.repositories.ClientRepository;
 
 /**
  *

@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.BankSolution.services;
+package com.example.BankSolution.services;
 
-import com.BankSolution.entities.Demand;
+import com.example.BankSolution.entities.Demand;
 import java.util.List;
 import java.util.Optional;
 import static jdk.nashorn.internal.objects.NativeMath.log;
 import org.springframework.stereotype.Service;
-import com.BankSolution.repositories.DemandRepository;
+import com.example.BankSolution.repositories.DemandRepository;
 import org.springframework.stereotype.Service;
 
 /**

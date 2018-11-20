@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.BankSolution.web;
+package com.example.BankSolution.web;
 
-import com.BankSolution.entities.Demand;
-import com.BankSolution.entities.Response;
-import com.BankSolution.services.ResponseService;
+import com.example.BankSolution.entities.Demand;
+import com.example.BankSolution.entities.Response;
+import com.example.BankSolution.services.ResponseService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

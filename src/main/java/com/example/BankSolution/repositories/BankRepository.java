@@ -3,8 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.BankSolution.repositories;
-import com.BankSolution.entities.Bank ;
+package com.example.BankSolution.repositories;
+import com.example.BankSolution.entities.Bank ;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

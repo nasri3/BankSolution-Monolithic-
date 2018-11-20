@@ -1,4 +1,4 @@
-package com.BankSolution;
+package com.example.BankSolution;
 
 
 

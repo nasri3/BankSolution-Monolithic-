@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.BankSolution.services;
+package com.example.BankSolution.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.BankSolution.repositories.AccountRepository;
+import com.example.BankSolution.repositories.AccountRepository;
 
 /**
  *

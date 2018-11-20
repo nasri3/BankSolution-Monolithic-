@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.BankSolution.web;
+package com.example.BankSolution.web;
 
-import com.BankSolution.entities.Demand;
+import com.example.BankSolution.entities.Demand;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.BankSolution.repositories.DemandRepository;
-import com.BankSolution.services.DemandService;
+import com.example.BankSolution.repositories.DemandRepository;
+import com.example.BankSolution.services.DemandService;
 
 /**
  *
@@ -34,7 +34,7 @@ public class DemandController {
    
     
     @GetMapping
-   List<Demand> findAll(){
+  List<Demand> findAll(){
         return this.demandService.findAll();
         
     }
