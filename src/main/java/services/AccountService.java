@@ -6,13 +6,17 @@
 package services;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import repositories.AccountRepository;
 
 /**
  *
  * @author omar
  */
+@Service
 public class AccountService {
 
-    private final AccountRepository accountRepository ; 
+    private AccountRepository accountRepository ;
+    
+    
 }
