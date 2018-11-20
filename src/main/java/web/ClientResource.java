@@ -49,7 +49,8 @@ public class ClientResource {
    
    @DeleteMapping(path="/{id}")
    public void delete (@PathVariable Long id) {
-       clientService.removeClient(id);
+       clientService.removeClient(id)  ;
+       
    }
    
    
