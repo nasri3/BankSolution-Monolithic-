@@ -3,18 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package services;
+package web;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-import repositories.AccountRepository;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  *
  * @author omar
  */
-@Service
-public class AccountService{
-    
+@RestController
+@RequestMapping("/accounts")
+public class AccountResource {
     
 }

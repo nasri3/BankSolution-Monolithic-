@@ -5,10 +5,14 @@
  */
 package services;
 
+import org.springframework.stereotype.Service;
+
 /**
  *
  * @author omar
  */
+
+@Service
 public class DemandService {
     
 }

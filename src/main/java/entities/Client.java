@@ -26,6 +26,25 @@ public class Client {
     int age ;
     String job ;
     double averageOfGainPerMonth ;
+    String email ;
+    long cin ;
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setCin(long cin) {
+        this.cin = cin;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public long getCin() {
+        return cin;
+    }
+    
 
     public Client(Long id, String name, LocalDateTime dateOfBirth, int age, String job, double averageOfGainPerMonth) {
         this.id = id;

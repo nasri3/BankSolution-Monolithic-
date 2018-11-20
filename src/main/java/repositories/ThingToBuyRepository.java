@@ -7,10 +7,12 @@ package repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import entities.ThingToBuy;
+import org.springframework.stereotype.Repository;
 /**
  *
  * @author omar
  */
+@Repository
 public interface ThingToBuyRepository extends JpaRepository<ThingToBuy, Object> {
     
 }
