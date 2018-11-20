@@ -5,10 +5,34 @@
  */
 package services;
 
+import entities.Client;
+import java.util.List;
+import org.springframework.stereotype.Service;
+import repositories.ClientRepository;
+
 /**
  *
  * @author omar
  */
+@Service
 public class ClientService {
+    
+    private final ClientRepository clientRepository ;
+
+    public ClientService(ClientRepository clientRepository) {
+        this.clientRepository = clientRepository;
+    }
+    
+    public List<Client> findAll() {
+        return clientRepository.findAll() ;
+    }
+    
+    public Client addClient(Client cl) {
+        return clientRepository.save(cl) ;
+    }
+    
+    public void removeClient(Long id ){
+        clientRepository.deleteById(id);
+    }
     
 }
