@@ -5,13 +5,17 @@
  */
 package repositories;
 import entities.Demand;
+import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
 /**
  *
  * @author omar
  */
+@Repository
 public interface DemandRepository extends JpaRepository<Demand, Long>{
+   // public List<Demand> findAll();
     
 }

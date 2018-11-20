@@ -21,7 +21,8 @@ public class Client {
     @Id
     @GeneratedValue
     Long id ;
-    String name ;
+    String FirstName ;
+    String LastName;
     LocalDateTime dateOfBirth ;
     int age ;
     String job ;
@@ -45,9 +46,7 @@ public class Client {
         return id;
     }
 
-    public String getName() {
-        return name;
-    }
+
 
     public LocalDateTime getDateOfBirth() {
         return dateOfBirth;
@@ -69,9 +68,7 @@ public class Client {
         this.id = id;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+    
 
     public void setDateOfBirth(LocalDateTime dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
@@ -89,10 +86,7 @@ public class Client {
         this.averageOfGainPerMonth = averageOfGainPerMonth;
     }
 
-    @Override
-    public String toString() {
-        return "Client{" + "id=" + id + ", name=" + name + ", dateOfBirth=" + dateOfBirth + ", age=" + age + ", job=" + job + ", averageOfGainPerMonth=" + averageOfGainPerMonth + '}';
-    }
+ 
 
     @Override
     public int hashCode() {
@@ -101,6 +95,31 @@ public class Client {
         return hash;
     }
 
+    public String getFirstName() {
+        return FirstName;
+    }
+
+    public void setFirstName(String FirstName) {
+        this.FirstName = FirstName;
+    }
+
+    public void setLastName(String LastName) {
+        this.LastName = LastName;
+    }
+
+    public String getLastName() {
+        return LastName;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString(); //To change body of generated methods, choose Tools | Templates.
+    }
+    
+
+   
+
+    
     @Override
     public boolean equals(Object obj) {
         if (this == obj) {

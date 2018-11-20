@@ -5,14 +5,15 @@
  */
 package repositories;
 
+import entities.Response;
 import org.springframework.data.jpa.repository.JpaRepository;
-import entities.ThingToBuy;
 import org.springframework.stereotype.Repository;
+
 /**
  *
- * @author omar
+ * @author nasri
  */
 @Repository
-public interface ThingToBuyRepository extends JpaRepository<ThingToBuy, Object> {
+public interface ResponseRepository  extends JpaRepository<Response, Long>{
     
 }
