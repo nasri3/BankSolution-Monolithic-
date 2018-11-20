@@ -13,14 +13,9 @@ import repositories.AccountRepository;
  *
  * @author omar
  */
-<<<<<<< HEAD
+@Service
 public class AccountService {
 
    // private final AccountRepository accountRepository ; 
-=======
-@Service
-public class AccountService{
-    
-    
->>>>>>> 39b6b61a1e7b35144046a754acc12f9c9e732e5d
 }
+
